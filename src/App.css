@@ -11,6 +11,14 @@ body {
     background-color: MistyRose;
 }
 
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -100px;
+    border-width: 2px;
+    border-color: Black;
+}
+
 
 
 .App-header {
@@ -20,9 +28,35 @@ body {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.App-about {
+  color: Tomato;
+  margin-left: -1040px;
 }
+
+.App-anonymous {
+  color: LawnGreen;
+  margin-top: -58px;
+  margin-left: -400px;
+}
+
+.App-culture {
+  color: Turquoise;
+  margin-top: -58px;
+  margin-left: 340px;
+}
+
+.App-gallery {
+  color: MediumPurple;
+   margin-top: -58px;
+  margin-left: 960px;
+}
+.App-title {
+  font-size: 250px;
+  font-family: Futura;
+  color: PaleVioletRed;
+
+}
+
 
 .App-intro {
   font-size: large;
