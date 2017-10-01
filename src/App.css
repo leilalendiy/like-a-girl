@@ -19,11 +19,9 @@ hr {
     border-color: Black;
 }
 
-
-
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 10px;
   padding: 20px;
   color: white;
 }
@@ -31,32 +29,83 @@ hr {
 .App-about {
   color: Tomato;
   margin-left: -1040px;
+  text-decoration: none;
 }
 
 .App-anonymous {
   color: LawnGreen;
   margin-top: -58px;
-  margin-left: -400px;
+  margin-left: -380px;
+  text-decoration: none;
+  position: fixed;
 }
 
 .App-culture {
   color: Turquoise;
   margin-top: -58px;
   margin-left: 340px;
+  text-decoration: none;
+  position: fixed;
 }
 
 .App-gallery {
   color: MediumPurple;
-   margin-top: -58px;
-  margin-left: 960px;
+  margin-top: -58px;
+  margin-left: 20px;
+  text-decoration: none;
+  position: fixed;
 }
+
 .App-title {
   font-size: 250px;
   font-family: Futura;
   color: PaleVioletRed;
-
 }
 
+.App-title-bar {
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: -780px;
+  margin-top: -35px;
+  font-family: Futura;
+  color: PaleVioletRed;
+  position: fixed;
+}
+
+.App-about-bar {
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: -20px;
+  margin-left: 180px;
+  color: Tomato;
+  position: fixed;
+}
+
+.App-ask-bar {
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: -20px;
+  margin-left: 275px;
+  color: LawnGreen;
+  position: fixed;
+}
+
+.App-culture-bar {
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: -20px;
+  margin-left: 450px;
+  color: Turquoise;
+  position: fixed;
+}
+.App-gallery-bar {
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: -20px;
+  margin-left: 600px;
+  color: MediumPurple;
+  position: fixed;
+}
 
 .App-intro {
   font-size: large;
